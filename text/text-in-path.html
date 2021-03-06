@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text in path</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <svg viewBox="0 0 400 300">
+        <path d="m0,50 q200,0 400,300" fill="none" id="path" stroke="red" />
+        <text dx="20" dy="50" text-anchor="start" font-size="32" font-weight="bold" fill="none" stroke="red"
+            stroke-width="0.3" textLength="350">
+            <textPath href="#path">Hola amigos</textPath>
+        </text>
+        <text dx="20" dy="100" text-anchor="start" font-size="32" font-weight="bold" fill="none" stroke="red"
+            stroke-width="0.3" textLength="250">
+            <textPath href="#path">de EDTeam</textPath>
+        </text>
+    </svg>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G y Symbol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <svg viewBox="0 0 100 100">
+        <defs>
+            <g id="g1" stroke="red">
+                <circle cx="50" cy="50" r="20" />
+                <circle cx="80" cy="80" r="30" style="" />
+            </g>
+        </defs>
+        <symbol id="s1" viewBox="0 0 100 100" class="simbolo">
+            <g stroke="red">
+                <circle cx="50" cy="50" r="20" />
+                <circle cx="80" cy="80" r="30" style="" />
+            </g>
+        </symbol>
+        <use href="#g1" x="-50" y="-50" fill="green" />
+        <use href="#s1" x="0" y="0" fill="yellow" />
+    </svg>
+</body>
+
+</html>

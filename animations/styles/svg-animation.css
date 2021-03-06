@@ -1,0 +1,141 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center; }
+
+.loader {
+  width: 80px;
+  fill: red; }
+
+.loader-1 {
+  animation: loader-1 1.5s infinite linear; }
+
+@keyframes loader-1 {
+  0% {
+    opacity: 0; }
+  8.33333% {
+    opacity: 1; }
+  58.33333%, 100% {
+    opacity: 0; } }
+
+.loader-2 {
+  animation: loader-2 1.5s infinite linear; }
+
+@keyframes loader-2 {
+  0%, 0% {
+    opacity: 0; }
+  16.66667% {
+    opacity: 1; }
+  66.66667%, 100% {
+    opacity: 0; } }
+
+.loader-3 {
+  animation: loader-3 1.5s infinite linear; }
+
+@keyframes loader-3 {
+  0%, 8.33333% {
+    opacity: 0; }
+  25% {
+    opacity: 1; }
+  75%, 100% {
+    opacity: 0; } }
+
+.loader-4 {
+  animation: loader-4 1.5s infinite linear; }
+
+@keyframes loader-4 {
+  0%, 16.66667% {
+    opacity: 0; }
+  33.33333% {
+    opacity: 1; }
+  83.33333%, 100% {
+    opacity: 0; } }
+
+.loader-5 {
+  animation: loader-5 1.5s infinite linear; }
+
+@keyframes loader-5 {
+  0%, 25% {
+    opacity: 0; }
+  41.66667% {
+    opacity: 1; }
+  91.66667%, 100% {
+    opacity: 0; } }
+
+.loader-6 {
+  animation: loader-6 1.5s infinite linear; }
+
+@keyframes loader-6 {
+  0%, 33.33333% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100%, 100% {
+    opacity: 0; } }
+
+.loader-7 {
+  animation: loader-7 1.5s infinite linear; }
+
+@keyframes loader-7 {
+  0%, 41.66667% {
+    opacity: 0; }
+  58.33333% {
+    opacity: 1; }
+  108.33333%, 100% {
+    opacity: 0; } }
+
+.loader-8 {
+  animation: loader-8 1.5s infinite linear; }
+
+@keyframes loader-8 {
+  0%, 50% {
+    opacity: 0; }
+  66.66667% {
+    opacity: 1; }
+  116.66667%, 100% {
+    opacity: 0; } }
+
+.loader-9 {
+  animation: loader-9 1.5s infinite linear; }
+
+@keyframes loader-9 {
+  0%, 58.33333% {
+    opacity: 0; }
+  75% {
+    opacity: 1; }
+  125%, 100% {
+    opacity: 0; } }
+
+.loader-10 {
+  animation: loader-10 1.5s infinite linear; }
+
+@keyframes loader-10 {
+  0%, 66.66667% {
+    opacity: 0; }
+  83.33333% {
+    opacity: 1; }
+  133.33333%, 100% {
+    opacity: 0; } }
+
+.loader-11 {
+  animation: loader-11 1.5s infinite linear; }
+
+@keyframes loader-11 {
+  0%, 75% {
+    opacity: 0; }
+  91.66667% {
+    opacity: 1; }
+  141.66667%, 100% {
+    opacity: 0; } }
+
+.loader-12 {
+  animation: loader-12 1.5s infinite linear; }
+
+@keyframes loader-12 {
+  0%, 83.33333% {
+    opacity: 0; }
+  100% {
+    opacity: 1; }
+  150%, 100% {
+    opacity: 0; } }

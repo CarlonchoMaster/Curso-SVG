@@ -1,0 +1,22 @@
+.svg-blur {
+    border: 1px solid #000;
+    width: 800px;
+    margin: 2em auto;
+    display: block;
+}
+
+.svg-matrix {
+    width: 800px;
+    margin: 2em auto;
+    display: block;    
+}
+
+.svg-merge {
+    width: 800px;
+    margin: 2em auto;
+    display: block;    
+}
+
+.bg-yellow {
+    background-color: yellow;    
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namespace y Def</title>
+</head>
+<body>
+    <svg viewBox="0 0 100 100">
+        <defs>
+            <circle cx="50" cy="50" r="50" id="circle"/>    
+        </defs>
+        <use href="#circle" x="50" y="50" fill="red" />
+        <use href="#circle" x="-50" y="-50" fill="blue" />
+        <use href="#circle" x="-50" y="50" fill="green" />
+        <use href="#circle" x="50" y="-50" fill="yellow" />
+    </svg>
+</body>
+</html>

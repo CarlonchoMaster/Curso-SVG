@@ -1,0 +1,20 @@
+.svg-responsive {
+    background: yellow;
+    width: 48px;
+    height: 80px;
+}
+
+p {
+    font-size: 3em;
+}
+
+.svg-logo .brand {
+    display: none;
+}
+
+@media screen and (min-width: 540px) 
+{
+    .svg-logo .brand {
+        display: block;
+    }
+}

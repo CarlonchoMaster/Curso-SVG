@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu-toggle {
+    width: 60px;
+    fill: green;
+    cursor: pointer;
+
+    .close-menu {
+        fill: green;
+    }
+
+    .open-menu {
+        fill: red;
+    }
+
+    .close-menu, .open-menu {
+        transition: transform 0.25s;
+        transform-origin: 50% 50%;
+    }
+
+    .close-menu {
+        opacity: 0;
+        transform: scale(0);        
+    }
+
+    &.menu-is-open {
+        .close-menu {
+            opacity: 1;
+            transform: scale(1);        
+        }
+
+        .open-menu {
+            opacity: 0;
+            transform: scale(0);
+        }        
+    }
+}

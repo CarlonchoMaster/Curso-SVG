@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinando filtros</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <svg class="svg-merge" viewBox="0 0 400 300">
+        <defs>
+            <circle cx="200" cy="150" r="100" id="circle"/>   
+            <filter id="offset">
+                <feOffset dx="1" dy="1"/>
+                <feGaussianBlur stdDeviation="3"/>
+                <feColorMatrix type="saturate" values="0"/>    
+            </filter>             
+        </defs>
+        <use href="#circle" filter="url(#offset)" fill="black"/>
+        <use href="#circle" fill="red"/>
+    </svg>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center; }
+
+.ed-loader {
+  animation: ed-loader 2s infinite;
+  width: 100px; }
+
+@keyframes ed-loader {
+  to {
+    transform: rotate(2turn); } }
+
+.loader-1 {
+  animation: loader-1 2s infinite; }
+
+@keyframes loader-1 {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 1; } }
+
+.loader-2 {
+  animation: loader-2 2s infinite; }
+
+@keyframes loader-2 {
+  0%, 25% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+
+.loader-3 {
+  animation: loader-3 2s infinite; }
+
+@keyframes loader-3 {
+  0%, 50% {
+    opacity: 0; }
+  75% {
+    opacity: 1; } }

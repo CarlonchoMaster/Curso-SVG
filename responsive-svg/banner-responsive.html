@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Responsive SVG</title>
+    <link rel="stylesheet" href="styles/style.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <svg viewBox="0 0 300 100">
+        <defs>
+            <linearGradient id="gradient">
+                <stop offset="0%" stop-color="#fba905"/>
+                <stop offset="100%" stop-color="#ff3c32"/>
+            </linearGradient>
+        </defs>
+        <path d="M0,0 H300 V90 Q225,100 150,90 T0,90 Z" />
+        <text x="50%"  y="50%" text-anchor="middle" fill="url(#gradient)" font-family="Gorditas" font-weight="700">Bienvenidos a la App de EDTeam</text>
+    </svg>
+</body>
+</html>

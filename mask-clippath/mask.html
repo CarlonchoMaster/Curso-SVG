@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <svg class="svg-mask" viewBox="0 0 600 400">
+        <defs>
+            <linearGradient id="gradient">
+                <stop offset="0%" stop-color="white"/>
+                <stop offset="100%" stop-color="black"/>
+            </linearGradient>
+            <mask id="mask" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1">
+                <rect width="1" height="1" fill="url(#gradient)"/>
+            </mask>            
+        </defs>
+        <image
+            href="https://images.unsplash.com/photo-1610674292085-5c6b6595b4ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            width="100%" mask="url(#mask)"/>
+    </svg>
+</body>
+</html>

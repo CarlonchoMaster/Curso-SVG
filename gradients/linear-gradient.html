@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradient</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <svg viewBox="0 0 300 200">
+        <defs>
+            <linearGradient id="my-gradient">
+                <stop offset="40%" stop-color="yellow"/>                
+                <stop offset="100%" stop-color="red"/>
+            </linearGradient>             
+        </defs>
+        <rect x="50" y="30" width="200" height="140" fill="url(#my-gradient)"/>
+    </svg>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.loader {
+    width: 80px;
+    fill: red;
+}
+
+@for $i from 1 through 12 {
+    $loader: loader-#{$i};
+    $step: 100% / 12;
+    $start: $step * ($i - 2);
+    $visible: $step * $i;
+    $end: $step * ($i + 6);
+
+    .#{$loader} {
+        animation: #{$loader} 1.5s infinite linear;        
+
+        @keyframes #{$loader} {
+            @if $start < 0 {
+                0% {
+                    opacity: 0;
+                }
+            } @else {
+                0%, #{$start} {
+                    opacity: 0;
+                }
+            }
+            
+            #{$visible} {
+                opacity: 1;
+            }
+
+            #{$end}, 100% {
+                opacity: 0;
+            }
+        }
+    }
+}

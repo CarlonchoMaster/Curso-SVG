@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center; }
+
+.heart {
+  width: 400px;
+  animation: heart-beat 0.5s 1.25s infinite ease-in-out alternate; }
+
+@keyframes heart-beat {
+  to {
+    transform: scale(1.05); } }
+  .heart path {
+    fill: none;
+    stroke: red;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 400;
+    animation: heart-path 2s forwards; }
+
+@keyframes heart-path {
+  99% {
+    stroke-dashoffset: 0;
+    fill: none; }
+  100% {
+    fill: red; } }
